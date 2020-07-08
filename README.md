@@ -24,3 +24,29 @@
 - 接口描述：输入提示是一类简单的HTTP接口，提供根据用户输入的关键词查询返回建议列表。
 - 接口地址：[https://restapi.amap.com/v3/assistant/inputtips?parameters](https://restapi.amap.com/v3/assistant/inputtips?parameters)
 - 请求方式：GET
+- 输入源代码
+```
+import requests
+key='334190ffbcbd51cfe6c7f81594a9b9de'
+def hint(keywords=None,type='分类代码',location=None,city='citycode',sig=None,citylimit='false',datatype='all',homeorcorp=None)->dict:
+    url = 'https://restapi.amap.com/v3/assistant/inputtips?parameters'
+    params={
+        'key': key,
+        'location':location,
+        'keywords':keywords,
+        'type':type,
+        'city':city,
+        'citylimit':citylimit,
+        'datatype':datatype,
+        'homeorcorp':homeorcorp,
+        'homeorcorp':homeorcorp,
+        'sig':sig,
+        'output':'json'
+    }
+    response = requests.get(url,params=params)
+    data = response.json()
+    return data
+hint_厕所 = hint(keywords='九寨沟-公共厕所')
+hint_厕所
+```
+- 由于输出源代码过长，这里放上链接。
