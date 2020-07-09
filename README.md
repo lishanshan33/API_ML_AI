@@ -20,7 +20,7 @@
 | 3 | 不知道厕所的具体位置  | 高德开发平台的路线规划API |次重要|
 ## 三、API 产品使用及输出展示
 ### 1.API展示说明及输出
-#### （1）输入提示API---高德开放平台
+#### （1）[输入提示API---高德开放平台](https://lbs.amap.com/api/webservice/guide/api/inputtips)
 - 接口描述：输入提示是一类简单的HTTP接口，提供根据用户输入的关键词查询返回建议列表。
 - 接口地址：[https://restapi.amap.com/v3/assistant/inputtips?parameters](https://restapi.amap.com/v3/assistant/inputtips?parameters)
 - 请求方式：GET
@@ -49,4 +49,4 @@ def hint(keywords=None,type='分类代码',location=None,city='citycode',sig=Non
 hint_厕所 = hint(keywords='九寨沟-公共厕所')
 hint_厕所
 ```
-- 由于输出源代码过长，这里放上链接。
+- 由于输出源代码过长，这里放上链接:[调用高德开放平台-----输入提示API](https://www.jianshu.com/p/eaf69d91c30f)
