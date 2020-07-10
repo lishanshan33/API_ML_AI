@@ -76,4 +76,4 @@ if response:
 ```
 {'person_num': 26, 'log_id': 6154891608034342474}
 ```
-- [详细代码示例]()
+- 详细代码示例：[调用百度AI开放平台-----人流量统计API](https://www.jianshu.com/p/e2e66eeaf687)
