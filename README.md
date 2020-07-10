@@ -50,3 +50,30 @@ hint_厕所 = hint(keywords='九寨沟-公共厕所')
 hint_厕所
 ```
 - 由于输出源代码过长，详细代码示例:[调用高德开放平台-----输入提示API](https://www.jianshu.com/p/eaf69d91c30f)
+
+#### （2）[人流量统计---百度AI开放平台](https://ai.baidu.com/ai-doc/BODY/7k3cpyy1t)
+- 接口描述：对于输入的一张图片（可正常解码，且长宽比适宜），识别和统计图像当中的人体个数（静态统计，不支持追踪和去重）。适用于3米以上的中远距离俯拍，以头部为主要识别目标统计人数，无需正脸、全身照，适应各类人流密集场景（如：机场、车展、景区、广场等）；默认识别整图中的人数，支持指定不规则区域的人数统计，同时可输出渲染图片。摄像头硬件选型无特殊要求，分辨率建议720p以上，更低分辨率的图片也能识别，只是效果可能有差异。暂不适用夜间红外监控图片，后续会考虑扩展。
+- 接口地址：[https://aip.baidubce.com/rest/2.0/image-classify/v1/body_num](https://aip.baidubce.com/rest/2.0/image-classify/v1/body_num)
+- 请求方式：POST
+- 输入源代码
+```
+import requests
+import base64
+request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/body_num"
+# 二进制方式打开图片文件
+f = open('Desktop/picture.jpg', 'rb')
+img = base64.b64encode(f.read())
+params = {"image":img}
+access_token = '24.0c0289a210b48d32b4c1318f86a1a889.2592000.1596955912.282335-21236519'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+```
+
+- 输出源代码
+```
+{'person_num': 26, 'log_id': 6154891608034342474}
+```
+- [详细代码示例]()
