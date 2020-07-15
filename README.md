@@ -79,3 +79,29 @@ if response:
 {'person_num': 26, 'log_id': 6154891608034342474}
 ```
 - 详细代码示例：[调用百度AI开放平台-----人流量统计API](https://www.jianshu.com/p/e2e66eeaf687)
+
+***
+
+#### （3）[路径规划API---高德开放平台](https://lbs.amap.com/api/webservice/guide/api/direction#walk)
+- 接口描述：步行路径规划 API 可以规划100KM以内的步行通勤方案，并且返回通勤方案的数据。
+- 接口地址：[https://restapi.amap.com/v3/direction/walking?parameters](https://restapi.amap.com/v3/direction/walking?parameters)
+- 请求方式：GET
+- 输入源代码
+```
+def walking(origin,destination,sig=None)->dict:
+    url = 'https://restapi.amap.com/v3/direction/walking?parameters'
+    params={
+        'key':key,
+        'origin':origin,
+        'destination':destination,
+        'output':'json'
+    }
+    response = requests.get(url,params=params)
+    data = response.json()
+    return data
+九寨沟_location = 九寨沟['geocodes'][0]['location']
+九寨沟公共厕所_location = '104.246078,33.242995'
+九寨沟_九寨沟公共厕所 = walking(九寨沟_location,九寨沟公共厕所_location)
+九寨沟_九寨沟公共厕所
+```
+- 由于输出源代码过长，详细代码示例:[调用高德开放平台-----输入提示API](https://www.jianshu.com/p/eaf69d91c30f)
