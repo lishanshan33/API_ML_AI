@@ -104,4 +104,4 @@ def walking(origin,destination,sig=None)->dict:
 九寨沟_九寨沟公共厕所 = walking(九寨沟_location,九寨沟公共厕所_location)
 九寨沟_九寨沟公共厕所
 ```
-- 由于输出源代码过长，详细代码示例:[调用高德开放平台-----输入提示API](https://www.jianshu.com/p/eaf69d91c30f)
+- 由于输出源代码过长，详细代码示例:[调用高德开放平台-----路径规划API](https://www.jianshu.com/p/9b90f04c1878)
