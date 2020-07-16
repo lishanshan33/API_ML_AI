@@ -108,6 +108,9 @@ if response:
 
 ***
 
+！[图片示例1](https://i.loli.net/2020/07/16/BQGsp76dJq3SfeN.png)
+！[图片示例2](https://i.loli.net/2020/07/16/kPn1pfe7Jcg5a62.png)
+
 #### （3）[路径规划API---高德开放平台](https://lbs.amap.com/api/webservice/guide/api/direction#walk)
 - 接口描述：步行路径规划 API 可以规划100KM以内的步行通勤方案，并且返回通勤方案的数据。
 - 接口地址：[https://restapi.amap.com/v3/direction/walking?parameters](https://restapi.amap.com/v3/direction/walking?parameters)
