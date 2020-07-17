@@ -49,9 +49,15 @@
 
 - 2. 主要交互应用流程图：![主要交互应用流程图](https://i.loli.net/2020/07/17/7RiGTxbdzOQnJCP.png)
 
-- 产品架构图：![产品架构图](https://i.loli.net/2020/07/17/4JswTcDMZyEq8Ka.png)
+- 3. 信息设计：
+![信息设计](https://i.loli.net/2020/07/17/Yw6vbd2ZxyOksLE.png)
+![信息设计](https://i.loli.net/2020/07/17/xEbve6i1JP97zTR.png)
+![信息设计](https://i.loli.net/2020/07/17/Udpo6mON83IRuFg.png)
+![信息设计](https://i.loli.net/2020/07/17/ZHNs2IYyDWKL4QS.png)
 
-- 产品流程图：![产品流程图](https://i.loli.net/2020/07/17/KbWGevthX78VwJQ.png)
+- 4. 产品架构图：![产品架构图](https://i.loli.net/2020/07/17/4JswTcDMZyEq8Ka.png)
+
+- 5. 产品流程图：![产品流程图](https://i.loli.net/2020/07/17/KbWGevthX78VwJQ.png)
 
 ## 三、API 产品使用及输出展示
 ### 1.API展示说明及输出
