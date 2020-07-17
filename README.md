@@ -156,12 +156,12 @@ def walking(origin,destination,sig=None)->dict:
 
 ### 2.使用比较分析
 - 高德开放平台----输入提示API
-- 1. API文档：[https://lbs.amap.com/api/webservice/guide/api/inputtips/#inputtips](https://lbs.amap.com/api/webservice/guide/api/inputtips/#inputtips)
+- 1. [API文档](https://lbs.amap.com/api/webservice/guide/api/inputtips/#inputtips)
 - 2. 功能介绍：提供根据用户输入的关键词查询返回建议列表，且使用location参数时，可在此location附近优先返回搜索关键词信息；
 - 3. [高德地图开放平台商业授权协议](https://lbs.amap.com/home/authorization/)
 
 - 百度地图开放平台----输入提示API
-- 1. API文档：[https://lbsyun.baidu.com/index.php?title=webapi/place-suggestion-api](https://lbsyun.baidu.com/index.php?title=webapi/place-suggestion-api)
+- 1. [API文档](https://lbsyun.baidu.com/index.php?title=webapi/place-suggestion-api)
 - 2. 功能介绍：在应用方面，可将地点推荐列表展示给用户，用户可通过点击等交互方式，结合地点检索服务，检索用户点击的POI信息，实现地点详情检索功能；传入location参数后，返回结果将以距离进行排序；
 - 3. [百度地图商用授权申请](http://lbsyun.baidu.com/apiconsole/authorization#/home)
 - 4. [额度提升价格](http://lbsyun.baidu.com/cashier/quota#/home)
@@ -170,12 +170,12 @@ def walking(origin,destination,sig=None)->dict:
 ***
 
 - 百度AI开放平台----人流量统计API
-- 1. API介绍：[https://ai.baidu.com/tech/body/num](https://ai.baidu.com/tech/body/num)
+- 1. [API介绍](https://ai.baidu.com/tech/body/num)
 - 2. 功能介绍：适用于3米以上的中远距离俯拍，以头部为识别目标统计图片中的瞬时人数；无人数上限，广泛适用于机场、车站、商场、展会、景区等人群密集场所；
 - 3. [产品价格](https://ai.baidu.com/ai-doc/BODY/mk3cpyhfe)
 
 - 阿里云开放平台----人数检测OCR
-- 1. API介绍：[https://market.aliyun.com/products/57124001/cmapi032370.html?spm=5176.78296.1367463.10.733e5d765CSzSs#sku=yuncode2637000001](https://market.aliyun.com/products/57124001/cmapi032370.html?spm=5176.78296.1367463.10.733e5d765CSzSs#sku=yuncode2637000001)
+- 1. [API介绍](https://market.aliyun.com/products/57124001/cmapi032370.html?spm=5176.78296.1367463.10.733e5d765CSzSs#sku=yuncode2637000001)
 - 2. 功能介绍：支持多视觉角度，支持多种图片格式，适应人流密集场所；
 - 3. [产品价格](https://market.aliyun.com/products/57124001/cmapi032370.html?spm=5176.78296.1367463.10.733e5d765CSzSs#sku=yuncode2637000001)
 #### 两种API的功能都符合于“找厕所”APP的主要需求，也许调用阿里云开放平台的人数检测OCR会更容易些，但考虑到产品的商用，且对比价格，还有百度AI开放平台的文档完善度高，保障性高；所以在短期内会使用百度AI开放平台的人流量统计API。
@@ -187,5 +187,6 @@ def walking(origin,destination,sig=None)->dict:
 - 技术可行性：高德开放平台和百度AI开放平台这两大平台可靠性保障高，精确度高，具有一定的权威性；且及时对用户的反馈进行分析总结，强化机器学习；
 - 商业可行性：在后期迭代中会考虑融合景点的旅行攻略，可以通过门票及周边产品的预定服务获得盈利；”找厕所“APP不仅缓解用户排队现象严重的问题，景区管理亦可以通过调用人流量统计API，分析客流量来分配厕所管理员，减少了人工成本，也在一定程度上促进了环境的整洁，提升旅客游玩体验
 
+***
 
 ## 4.心得总结于感谢
