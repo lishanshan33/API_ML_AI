@@ -39,10 +39,10 @@
 ### 8.需求列表与人工智能API加值
 | 序号 | 用户需求 | 智能加值| API类型 |重要程度|
 |:------:| :------: | :------: | :------: |:------: |
-| 1 | 当前在什么位置 | 否 |手机地理定位|次重要|
-| 2| 不清楚周围哪里有厕所| 是 | 高德开发平台的输入提示API |重要|
-| 3 | 不知道哪里厕所的人流量相对较小 | 是| 百度开发平台的人流量统计识别API |重要|
-| 4 | 不知道厕所的具体位置  | 是| 高德开发平台的路线规划API |次重要|
+| 1| 不清楚周围哪里有厕所| 是 | 高德开发平台的输入提示API |重要|
+| 2 | 不知道哪里厕所的人流量相对较小 | 是| 百度开发平台的人流量统计识别API |重要|
+| 3 | 不知道厕所的具体位置  | 是| 高德开发平台的路线规划API |次重要|
+| 4 | 当前在什么位置 | 否 |手机地理定位|次重要|
 
 ## 二、产品设计原型
 - 1. 产品原型交互链接：[点击此处](https://modao.cc/app/19ce68e4cb745482e210f41c99a189f7768d9274?simulator_type=device) （开启全屏模式可以看得更清楚哦~）
@@ -153,3 +153,16 @@ def walking(origin,destination,sig=None)->dict:
 *** 
 
 ### 2.使用比较分析
+- 高德开放平台----输入提示API
+- 1. API文档：[https://lbs.amap.com/api/webservice/guide/api/inputtips/#inputtips](https://lbs.amap.com/api/webservice/guide/api/inputtips/#inputtips)
+- 2. 功能介绍：提供根据用户输入的关键词查询返回建议列表，且使用location参数时，可在此location附近优先返回搜索关键词信息；
+- 3. [高德地图开放平台商业授权协议](https://lbs.amap.com/home/authorization/)
+
+- 百度地图开放平台----输入提示API
+- 1. API文档：[https://lbsyun.baidu.com/index.php?title=webapi/place-suggestion-api](https://lbsyun.baidu.com/index.php?title=webapi/place-suggestion-api)
+- 2. 功能介绍：在应用方面，可将地点推荐列表展示给用户，用户可通过点击等交互方式，结合地点检索服务，检索用户点击的POI信息，实现地点详情检索功能；传入location参数后，返回结果将以距离进行排序；
+- 3. [百度地图商用授权申请](http://lbsyun.baidu.com/apiconsole/authorization#/home)
+- 4. [额度提升价格](http://lbsyun.baidu.com/cashier/quota#/home)
+#### 调用输入提示API时，传入location参数，可以优先返回location附近的结果对于当前“找厕所”APP而已，是最主要的。通过分析高德开放平台与百度开放平台的主要功能差异，调用高德开放平台的输入提示API更适合于当前产品。
+
+- 
