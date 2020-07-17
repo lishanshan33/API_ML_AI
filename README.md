@@ -39,9 +39,9 @@
 ### 8.需求列表与人工智能API加值
 | 序号 | 用户需求 | 智能加值| API类型 |重要程度|
 |:------:| :------: | :------: | :------: |:------: |
-| 1| 不清楚周围哪里有厕所| 是 | 高德开发平台的输入提示API |重要|
-| 2 | 不知道哪里厕所的人流量相对较小 | 是| 百度开发平台的人流量统计识别API |重要|
-| 3 | 不知道厕所的具体位置  | 是| 高德开发平台的路线规划API |次重要|
+| 1| 不清楚周围哪里有厕所| 是 | 高德开放平台、百度地图开放平台---输入提示API |重要|
+| 2 | 不知道哪里厕所的人流量相对较小 | 是| 百度AI开放平台、阿里云开放平台---人流量统计API |重要|
+| 3 | 不知道厕所的具体位置  | 是| 高德开放平台、百度地图开放平台---路线规划API |次重要|
 | 4 | 当前在什么位置 | 否 |手机地理定位|次重要|
 
 ## 二、产品设计原型
@@ -54,7 +54,7 @@
 ![信息设计](https://i.loli.net/2020/07/17/IZz5iwS3abYdgKk.png)
 
 - 4. 产品架构图：
-- ![产品架构图](https://i.loli.net/2020/07/17/4JswTcDMZyEq8Ka.png)
+![产品架构图](https://i.loli.net/2020/07/17/4JswTcDMZyEq8Ka.png)
 
 - 5. 产品流程图：
 ![产品流程图](https://i.loli.net/2020/07/17/KbWGevthX78VwJQ.png)
@@ -123,9 +123,6 @@ if response:
 
 ***
 
-- ！[图片示例1](https://i.loli.net/2020/07/16/BQGsp76dJq3SfeN.png)
-- ！[图片示例2](https://i.loli.net/2020/07/16/kPn1pfe7Jcg5a62.png)
-
 #### （3）[路径规划API---高德开放平台](https://lbs.amap.com/api/webservice/guide/api/direction#walk)
 - 接口描述：步行路径规划 API 可以规划100KM以内的步行通勤方案，并且返回通勤方案的数据。
 - 接口地址：[https://restapi.amap.com/v3/direction/walking?parameters](https://restapi.amap.com/v3/direction/walking?parameters)
@@ -165,4 +162,15 @@ def walking(origin,destination,sig=None)->dict:
 - 4. [额度提升价格](http://lbsyun.baidu.com/cashier/quota#/home)
 #### 调用输入提示API时，传入location参数，可以优先返回location附近的结果对于当前“找厕所”APP而已，是最主要的。通过分析高德开放平台与百度开放平台的主要功能差异，调用高德开放平台的输入提示API更适合于当前产品。
 
-- 
+***
+
+- 百度AI开放平台----人流量统计API
+- 1. API介绍：[https://ai.baidu.com/tech/body/num](https://ai.baidu.com/tech/body/num)
+- 2. 功能介绍：适用于3米以上的中远距离俯拍，以头部为识别目标统计图片中的瞬时人数；无人数上限，广泛适用于机场、车站、商场、展会、景区等人群密集场所；
+- 3. [产品价格](https://ai.baidu.com/ai-doc/BODY/mk3cpyhfe)
+
+- 阿里云开放平台----人数检测OCR
+- 1. API介绍：[https://market.aliyun.com/products/57124001/cmapi032370.html?spm=5176.78296.1367463.10.733e5d765CSzSs#sku=yuncode2637000001](https://market.aliyun.com/products/57124001/cmapi032370.html?spm=5176.78296.1367463.10.733e5d765CSzSs#sku=yuncode2637000001)
+- 2. 功能介绍：支持多视觉角度，支持多种图片格式，适应人流密集场所；
+- 3. [产品价格](https://market.aliyun.com/products/57124001/cmapi032370.html?spm=5176.78296.1367463.10.733e5d765CSzSs#sku=yuncode2637000001)
+#### 两种API的功能都符合于“找厕所”APP的主要需求，也许调用阿里云开放平台的人数检测OCR会更容易些，但考虑到产品的商用，且对比价格，还有百度AI开放平台的文档完善度高，保障性高；所以在短期内会使用百度AI开放平台的人流量统计API。
