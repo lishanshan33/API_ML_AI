@@ -45,6 +45,8 @@
 | 4 | 不知道厕所的具体位置  | 是| 高德开发平台的路线规划API |次重要|
 
 ## 二、产品设计原型
+- 1.产品原型交互链接：[https://modao.cc/app/19ce68e4cb745482e210f41c99a189f7768d9274?simulator_type=device](https://modao.cc/app/19ce68e4cb745482e210f41c99a189f7768d9274?simulator_type=device)
+
 
 ## 三、API 产品使用及输出展示
 ### 1.API展示说明及输出
