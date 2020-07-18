@@ -67,6 +67,9 @@
 - 6. 产品流程图：
 ![产品流程图](https://i.loli.net/2020/07/17/KbWGevthX78VwJQ.png)
 
+- 7. 数据流程图：
+![数据流程图](https://i.loli.net/2020/07/18/GZ1n95NcMBQwIJ3.png)
+
 ## 三、API 产品使用及输出展示
 ### 1.API展示说明及输出
 #### （1）[输入提示API---高德开放平台](https://lbs.amap.com/api/webservice/guide/api/inputtips)
