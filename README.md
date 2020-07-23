@@ -50,23 +50,23 @@
 
 ## 二、产品设计原型
 - 1. 产品原型交互链接：[点击此处](https://modao.cc/app/19ce68e4cb745482e210f41c99a189f7768d9274?simulator_type=device) （开启全屏模式可以看得更清楚哦~）
-
-- 2. 界面详情
+- 2. 用户体验/旅程分析流程：[点击此处](https://modao.cc/flows/19ce68e4cb745482e210f41c99a189f7768d9274)  （放大浏览体验更好哦~）
+- 3. 界面详情
 ![界面详情](https://i.loli.net/2020/07/18/NLZCFzDJYO6jrap.png)
 
-- 3. 主要交互应用流程图：
-![主要交互应用流程图](https://i.loli.net/2020/07/17/7RiGTxbdzOQnJCP.png)
+- 4. 加值输入与输出细节：
+![加值输入与输出细节](https://i.loli.net/2020/07/17/IZz5iwS3abYdgKk.png)
 
-- 4. 信息设计：
-![信息设计](https://i.loli.net/2020/07/17/IZz5iwS3abYdgKk.png)
+- 5. 界面流程图突出智能交互：
+![界面流程图突出智能交互](https://i.loli.net/2020/07/17/7RiGTxbdzOQnJCP.png)
 
-- 5. 产品架构图：
+- 6. 产品架构图：
 ![产品架构图](https://i.loli.net/2020/07/17/4JswTcDMZyEq8Ka.png)
 
-- 6. 产品流程图：
+- 7. 产品流程图：
 ![产品流程图](https://i.loli.net/2020/07/17/KbWGevthX78VwJQ.png)
 
-- 7. 数据流程图：
+- 8. 数据流程图：
 ![数据流程图](https://i.loli.net/2020/07/18/GZ1n95NcMBQwIJ3.png)
 
 ## 三、API 产品使用及输出展示
