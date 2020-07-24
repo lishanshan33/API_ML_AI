@@ -207,4 +207,4 @@ def walking(origin,destination,sig=None)->dict:
 
 
 ## 4.心得总结与感谢
-- 万事开头难，整个项目中第一步是最艰难的，要构思好整个流程。我认为最好的方法是从用户痛点出发，首先锁定某个范围的用户，然后分析用户需求，想出方案解决用户需求。在本项目中特别感谢高德开放平台提供的[输入提示API](https://lbs.amap.com/api/webservice/guide/api/inputtips)和[路径规划API](https://lbs.amap.com/api/webservice/guide/api/direction#walk)，感谢百度AI开放平台提供的[人流量分析API](https://www.jianshu.com/p/e2e66eeaf687)，这两大平台的易用程度高，保障性高，精确度高，对整个项目的完成度有很大的帮助。
+- 万事开头难，整个项目中第一步是最艰难的，要构思好整个流程。我认为最好的方法是从用户痛点出发，首先锁定某个范围的用户，然后分析用户需求，想出方案解决用户需求。在本项目中特别感谢高德开放平台提供的[输入提示API](https://lbs.amap.com/api/webservice/guide/api/inputtips)和[路径规划API](https://lbs.amap.com/api/webservice/guide/api/direction#walk)，感谢百度AI开放平台提供的[人流量分析API](https://ai.baidu.com/ai-doc/BODY/7k3cpyy1t)，这两大平台的易用程度高，保障性高，精确度高，对整个项目的完成度有很大的帮助。
