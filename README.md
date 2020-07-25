@@ -18,7 +18,7 @@
 - 7. 修改心得总结与感谢
 - 8. 在文档产品目标、产品设计成果处运用图表
 - 9. 修改20*20PPT旁白
-
+- 10. [diff比较](https://github.com/lishanshan33/API_ML_AI/compare/e5e46b8...161c57e)
 ***
 
 ## 一、价值主张设计
@@ -40,9 +40,13 @@
 - 用户集中在一个区域的厕所位置，但距离偏远一点的厕所人流量较少。
 ### 7.产品目标
 ![产品目标](https://i.loli.net/2020/07/23/iD36MIKu5OpPYtw.png)
+
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/23/iD36MIKu5OpPYtw.png](https://i.loli.net/2020/07/23/iD36MIKu5OpPYtw.png)
 ### 8.用户分析
 - 主要用户：热爱旅行的18-30岁女性
 - 用户画像：![用户画像](https://i.loli.net/2020/07/16/whS5rXJmx4i3MF6.png)
+
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/16/whS5rXJmx4i3MF6.png](https://i.loli.net/2020/07/16/whS5rXJmx4i3MF6.png)
 - 使用场景：
 
 | 序号 | 使用场景 | 
@@ -68,26 +72,33 @@
 ### 2. 用户体验/旅程分析流程：[点击此处](https://modao.cc/flows/19ce68e4cb745482e210f41c99a189f7768d9274)  （放大浏览体验更好哦~）
 ![用户体验旅程图](https://i.loli.net/2020/07/23/TxmBzg4tI7qVebl.png)
 
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/23/TxmBzg4tI7qVebl.png](https://i.loli.net/2020/07/23/TxmBzg4tI7qVebl.png)
 - 图看不清楚的话打开上方链接观看也是一样的哦~
 
 ### 3. 界面详情
 ![界面详情](https://i.loli.net/2020/07/18/NLZCFzDJYO6jrap.png)
 
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/18/NLZCFzDJYO6jrap.png](https://i.loli.net/2020/07/18/NLZCFzDJYO6jrap.png)
 ### 4. 加值输入与输出细节：
 ![加值输入与输出细节](https://i.loli.net/2020/07/17/IZz5iwS3abYdgKk.png)
 
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/17/IZz5iwS3abYdgKk.png](https://i.loli.net/2020/07/17/IZz5iwS3abYdgKk.png)
 ### 5. 界面流程图突出智能交互：
 ![界面流程图突出智能交互](https://i.loli.net/2020/07/17/7RiGTxbdzOQnJCP.png)
 
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/17/7RiGTxbdzOQnJCP.png](https://i.loli.net/2020/07/17/7RiGTxbdzOQnJCP.png)
 ### 6. 产品架构图：
 ![产品架构图](https://i.loli.net/2020/07/17/4JswTcDMZyEq8Ka.png)
 
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/17/4JswTcDMZyEq8Ka.png](https://i.loli.net/2020/07/17/4JswTcDMZyEq8Ka.png)
 ### 7. 产品流程图：
 ![产品流程图](https://i.loli.net/2020/07/17/KbWGevthX78VwJQ.png)
 
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/17/KbWGevthX78VwJQ.png](https://i.loli.net/2020/07/17/KbWGevthX78VwJQ.png)
 ### 8. 数据流程图：
 ![数据流程图](https://i.loli.net/2020/07/18/GZ1n95NcMBQwIJ3.png)
 
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/18/GZ1n95NcMBQwIJ3.png](https://i.loli.net/2020/07/18/GZ1n95NcMBQwIJ3.png)
 ## 三、API 产品使用及输出展示
 ### 1.API展示说明及输出
 #### （1）[输入提示API---高德开放平台](https://lbs.amap.com/api/webservice/guide/api/inputtips)
@@ -152,9 +163,13 @@ if response:
 
 示例：
 ![人流量调用1](https://i.loli.net/2020/07/23/8Ml7WzANIVsSOw9.png)
+
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/23/8Ml7WzANIVsSOw9.png](https://i.loli.net/2020/07/23/8Ml7WzANIVsSOw9.png)
 ![人流量调用2](https://i.loli.net/2020/07/23/UgXJrfZcdHRkF1M.png)
 
-- 人流量统计API以头部为识别目标统计图片中的瞬时人数，对于人数没有上限，非常适合在旅游景区这类密集场所，而且准确率90%以上。
+- 图片无法显示的话麻烦点击链接查看谢谢大家：[https://i.loli.net/2020/07/23/UgXJrfZcdHRkF1M.png](https://i.loli.net/2020/07/23/UgXJrfZcdHRkF1M.png)
+
+#### 人流量统计API以头部为识别目标统计图片中的瞬时人数，对于人数没有上限，非常适合在旅游景区这类密集场所，而且准确率90%以上。
 
 ***
 
@@ -236,4 +251,5 @@ def walking(origin,destination,sig=None)->dict:
 - 7. 修改心得总结与感谢
 - 8. 在文档产品目标、产品设计成果处运用图表
 - 9. 修改20*20PPT旁白
+- 10. [diff比较](https://github.com/lishanshan33/API_ML_AI/compare/e5e46b8...161c57e)
 - PPT已检查是可以正常播放的，直接进入演示就会有录音播放，或者是点击单个页面的右下角；若文档图片无法显示，可以尝试直接点击或者联系我哦，谢谢！
