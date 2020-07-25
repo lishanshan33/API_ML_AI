@@ -5,6 +5,7 @@
 | 产品描述 | 一款利用人流量统计和距离综合判断，为旅行中的用户提供最便捷厕所路线的APP|
 | 产品版本 | 2.0 |
 |产品上一版本| [迭代一](https://github.com/lishanshan33/API_ML_AI/tree/d9e1849240a925748328ea905afd047e187d1273)|
+| 产品版本比较 | [diff比较](https://github.com/lishanshan33/API_ML_AI/compare/e5e46b8...161c57e) |
 | 文件现状| 进行中|
 | 文件作者| 李姗姗|
 - 迭代二更新内容：
